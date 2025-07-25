@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+
+.coins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coins_img {
+  width: 70px;
+  height: 70px;
+}
+
+.coins_number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(215, 167, 8);
+  font-family: "Butcherman", system-ui;
+}
+
+.gameButton {
+  width: 300px;
+}
+
+.gameButton_img {
+  width: 100%;
+}
+
+.lifeBar {
+  width: 300px;
+  height: 20px;
+  background-color: #550000;
+}
+
+.life {
+  height: 100%;
+  background-color: #F00;
+  transition: .1s;
+}
